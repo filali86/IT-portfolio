@@ -59,23 +59,23 @@ const projects: Project[] = [
     githubUrl: "https://github.com/filali86/IT-Incident-Management---AD-Account-Lockout",
     images: [
       {
-        src: "Screenshots/Log_in_PC/1.png",
+        src: "Screenshots/Log_In_PC/1.png",
         caption: "The user's perspective: A 'Cannot log on' error message encountered by the end-user, validating the issue reported in the help desk ticket.",
       },
       {
-        src: "Screenshots/Log_in_PC/2.png",
+        src: "Screenshots/Log_In_PC/2.png",
         caption: "The user's perspective: A 'Cannot log on' error message encountered by the end-user, validating the issue reported in the help desk ticket.",
       },
       {
-        src: "Screenshots/Log_in_PC/3.png",
+        src: "Screenshots/Log_In_PC/3.png",
         caption: "Administrator view inside Active Directory Users and Computers ADUC. Shows the user account properties, highlighting the 'Account is locked out' setting which was the root cause of the login failure.",
       },
       {
-        src: "Screenshots/Log_in_PC/4.png",
+        src: "Screenshots/Log_In_PC/4.png",
         caption: "Successful login! The user 'Sasha' is now able to access their desktop after the administrative action was taken, confirming the resolution.",
       },
       {
-        src: "Screenshots/Log_in_PC/6.png",
+        src: "Screenshots/Log_In_PC/6.png",
         caption: "The resolved help desk ticket. Documents the entire troubleshooting process, from identifying the locked-out account in AD to resolving it, adding a root cause analysis, and closing the ticket with the customer.",
       },
     ],
@@ -332,7 +332,7 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl" />
                 <img
-                  src="/me.jpg"
+                  src="/Me.jpg"
                   alt="Professional headshot"
                   className="relative rounded-2xl shadow-2xl w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 object-cover"
                 />
