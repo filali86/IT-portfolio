@@ -353,14 +353,16 @@ export default function Portfolio() {
                   to deliver effective technical support and problem-solving solutions.
                 </p>
               </div>
-              <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
-                <Button size="lg" className="gap-2 cursor-pointer w-full sm:w-auto">
+             <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center md:justify-start">
+                <a href="/Marwan-Filali-Resume.pdf" download className="block w-full sm:w-auto">
+                  <Button size="lg" className="gap-2 cursor-pointer w-full">
                   <Download className="h-5 w-5" />
                   Download Resume
-                </Button>
-                <Button size="lg" variant="outline" asChild className="w-full sm:w-auto bg-transparent">
-                  <a href="#contact">Get in Touch</a>
-                </Button>
+                  </Button>
+                </a>
+                  <Button size="lg" variant="outline" asChild className="w-full sm:w-auto bg-transparent">
+                    <a href="#contact">Get in Touch</a>
+                  </Button>
               </div>
               <div className="flex gap-4 pt-4 md:pt-6 justify-center md:justify-start">
                 <Button variant="ghost" size="icon" asChild>
