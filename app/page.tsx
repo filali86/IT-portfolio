@@ -332,7 +332,7 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl" />
                 <img
-                  src="/Me.jpg"
+                  src="/v1.jpg"
                   alt="Professional headshot"
                   className="relative rounded-2xl shadow-2xl w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 object-cover"
                 />
